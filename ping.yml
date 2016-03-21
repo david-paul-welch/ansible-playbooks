@@ -1,6 +1,5 @@
 ---
 - hosts: newvms
-  remote_user: ubuntu
   tasks: 
   - name: demonstrate working playbook
     ping: 
