@@ -1,5 +1,5 @@
 ---
-- hosts: newvms
+- hosts: localhost
   tasks: 
   - name: demonstrate working playbook
     ping: 
