@@ -1,6 +1,5 @@
 ---
-- hosts: localhost
+- hosts: all
   tasks: 
   - name: demonstrate working playbook
     ping: 
-
